@@ -7,8 +7,7 @@ int main()
     {
         scanf("%f",&Arr[i]);
     } //Input
-
-    float sum;
+    
     for(int i=1;i<10;i++)
     {
         Arr[i]+=Arr[i-1];
