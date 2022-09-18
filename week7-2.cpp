@@ -14,17 +14,18 @@ int main()
     getline(cin,input);
     //input
 
+    cout << "Modified Sentence : " ;
     int i=0;
     while(i<input.size())
     {
-        if(input[i] == a)
+        if(input[i] != a)
         {
-            input = input.substr(0,i);
-            cout << "Modified Sentence : " << input;
-            break;
+            cout << input[i];
+        }
+        else
+        {
+            i = input.size();
         }
         i++;
     }
-
-    cout << "Modified Sentence : " << input;
 }
