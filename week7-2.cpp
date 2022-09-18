@@ -4,13 +4,13 @@ using namespace std;
 
 int main()
 {
-    cout << "Enter Char : " << endl;
+    cout << "Enter Char : ";
     char a;
     string input;
     getline(cin,input);
     a=input[0];
 
-    cout << "Enter Sentence : " << endl;
+    cout << "Enter Sentence : ";
     getline(cin,input);
     //input
 
